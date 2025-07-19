@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Ingeniería en Aviación Comercial - USM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #003366;
+    }
+    .semestre {
+      margin: 20px auto;
+      padding: 15px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      max-width: 900px;
+    }
+    .semestre h2 {
+      margin-top: 0;
+      color: #006699;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      padding: 8px;
+      margin: 5px 0;
+      background: #eef;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    li.completed {
+      text-decoration: line-through;
+      background: #cfc;
+    }
+  </style>
+  <script>
+    function toggleCompleted(el) {
+      el.classList.toggle('completed');
+    }
+  </script>
+</head>
+<body>
+
+  <h1>Malla Ingeniería en Aviación Comercial - USM</h1>
+
+  <!-- Semestres 1 al 10 -->
+  <div class="semestre"><h2>1° Semestre (32 créditos)</h2><ul><li onclick="toggleCompleted(this)">EFI100 - Educación Física I</li><li onclick="toggleCompleted(this)">ACA260 - Inglés Técnico Aeronáutico</li><li onclick="toggleCompleted(this)">FIS100 - Introducción a la Física</li><li onclick="toggleCompleted(this)">IAC001 - Introducción a la Aeronáutica</li><li onclick="toggleCompleted(this)">MAT070 - Introducción al Cálculo</li><li onclick="toggleCompleted(this)">IWI131 - Programación</li><li onclick="toggleCompleted(this)">MAT060 - Álgebra y Geometría</li></ul></div>
+  <div class="semestre"><h2>2° Semestre (31 créditos)</h2><ul><li onclick="toggleCompleted(this)">MAT071 - Cálculo en una Variable</li><li onclick="toggleCompleted(this)">EFI101 - Educación Física II</li><li onclick="toggleCompleted(this)">FIS109 - Física Básica I</li><li onclick="toggleCompleted(this)">HRW 1 - Humanístico I</li><li onclick="toggleCompleted(this)">IAC002 - Manejo TIC</li><li onclick="toggleCompleted(this)">QUI010 - Química y Sociedad</li><li onclick="toggleCompleted(this)">MAT061 - Álgebra Lineal</li></ul></div>
+  <div class="semestre"><h2>3° Semestre (27 créditos)</h2><ul><li onclick="toggleCompleted(this)">ICS001 - Administración de Empresas</li><li onclick="toggleCompleted(this)">DEW 0 - Deportes</li><li onclick="toggleCompleted(this)">FIS119 - Física Básica II</li><li onclick="toggleCompleted(this)">HRW 2 - Humanístico II</li><li onclick="toggleCompleted(this)">ACA261 - Inglés Básico Aeronáutico</li><li onclick="toggleCompleted(this)">MAT023 - Matemáticas III</li></ul></div>
+  <div class="semestre"><h2>4° Semestre (30 créditos)</h2><ul><li onclick="toggleCompleted(this)">ICS002 - Contabilidad I</li><li onclick="toggleCompleted(this)">FIS129 - Física Básica III</li><li onclick="toggleCompleted(this)">HRW 3 - Humanístico III</li><li onclick="toggleCompleted(this)">ACA262 - Inglés Medio Aeronáutico I</li><li onclick="toggleCompleted(this)">MAT032 - Probabilidad y Estadística Comercial</li><li onclick="toggleCompleted(this)">IAC003 - Taller de Integración de Competencias I</li></ul></div>
+  <div class="semestre"><h2>5° Semestre (30 créditos)</h2><ul><li onclick="toggleCompleted(this)">IAC005 - Ciencias Aeronáuticas I</li><li onclick="toggleCompleted(this)">IAC004 - Economía y Finanzas en Aeronáutica</li><li onclick="toggleCompleted(this)">ICS010 - Gestión de Investigación de Operaciones</li><li onclick="toggleCompleted(this)">ICS009 - Ingeniería Económica</li><li onclick="toggleCompleted(this)">ACA263 - Inglés Medio Aeronáutico II</li><li onclick="toggleCompleted(this)">IAC006 - Ética Profesional y Responsabilidad Social Empresarial</li></ul></div>
+  <div class="semestre"><h2>6° Semestre (30 créditos)</h2><ul><li onclick="toggleCompleted(this)">ICS013 - Econometría</li><li onclick="toggleCompleted(this)">IAC008 - Electivo Libre</li><li onclick="toggleCompleted(this)">IAC007 - Empresas Aeronáuticas I</li><li onclick="toggleCompleted(this)">ACA264 - Inglés Avanzado Aeronáutico I</li><li onclick="toggleCompleted(this)">ICS015 - Recursos Humanos</li><li onclick="toggleCompleted(this)">IAC009 - Taller de Integración de Competencias II</li></ul></div>
+  <div class="semestre"><h2>7° Semestre (30 créditos)</h2><ul><li onclick="toggleCompleted(this)">IAC013 - Ciencias Aeronáuticas II</li><li onclick="toggleCompleted(this)">IAC014 - Electivo ACA I</li><li onclick="toggleCompleted(this)">IAC012 - Infraestructura y Servicios Aeronáuticos</li><li onclick="toggleCompleted(this)">ACA265 - Inglés Avanzado Aeronáutico II</li><li onclick="toggleCompleted(this)">IAC011 - Legislación Aeronáutica</li><li onclick="toggleCompleted(this)">IAC010 - Marketing Aeronáutico</li></ul></div>
+  <div class="semestre"><h2>8° Semestre (28 créditos)</h2><ul><li onclick="toggleCompleted(this)">IAC017 - Empresas Aeronáuticas II</li><li onclick="toggleCompleted(this)">ACA266 - Inglés Conversacional Aeronáutico</li><li onclick="toggleCompleted(this)">IAC015 - Liderazgo y Negociación</li><li onclick="toggleCompleted(this)">IAC018 - Operaciones y Logística Aeronáutica</li><li onclick="toggleCompleted(this)">IAC016 - Seguridad Operacional y SMS</li><li onclick="toggleCompleted(this)">IAC019 - Taller de Integración de Competencias III</li></ul></div>
+  <div class="semestre"><h2>9° Semestre (27 créditos)</h2><ul><li onclick="toggleCompleted(this)">IAC023 - Decisiones Financieras Aeronáuticas</li><li onclick="toggleCompleted(this)">IAC021 - Evaluación de Proyectos Aeronáuticos</li><li onclick="toggleCompleted(this)">IAC022 - Gestión Estratégica</li><li onclick="toggleCompleted(this)">IAC024 - Modern Commercial Aviation</li><li onclick="toggleCompleted(this)">IAC020 - Sistemas de Gestión de Calidad</li><li onclick="toggleCompleted(this)">IAC025 - Trabajo de Titulación I</li></ul></div>
+  <div class="semestre"><h2>10° Semestre (28 créditos)</h2><ul><li onclick="toggleCompleted(this)">IAC027 - Aeronáutica y Espacio</li><li onclick="toggleCompleted(this)">IAC028 - Casos en la Aviación Comercial</li><li onclick="toggleCompleted(this)">IAC029 - Electivo ACA II</li><li onclick="toggleCompleted(this)">IAC030 - International Aviation Features</li><li onclick="toggleCompleted(this)">IAC026 - Sistemas Integrados de Gestión en la Industria Aeronáutica</li><li onclick="toggleCompleted(this)">IAC031 - Trabajo de Titulación II</li></ul></div>
+
+</body>
+</html>
